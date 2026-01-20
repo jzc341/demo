@@ -16,7 +16,7 @@ public class Test {
     @GetMapping("/getName")
     public String getName(String name){
         System.out.println(name);
-        return "test==" + name;
+        return "test==9999" + name;
     }
 
 
